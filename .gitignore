@@ -1,0 +1,29 @@
+# Environments & secrets
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Local SQLite checkpoints & logs
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
